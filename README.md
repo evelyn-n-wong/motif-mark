@@ -12,6 +12,8 @@ To run the python script directly on your terminal, enter: python /path/to/file/
 
 The user can also just run the bash script and make adjustments to where the files are located on their local computer. 
 
+- The user should have create a new environment on their local computer and install cairo. Please visit the cairo website for greater details on how to install the cairo packages onto their environment. 
+
 The program outputs a png using the same naming convention as the fasta file that was passed. To see an example of what the image looks like, see Figure_1.png. 
 
 The header contains the name of the FASTA file followed by all identified gene names for each iteration. For each gene, there is a singular line representing the gene length and motifs identified and colored accordingly. Exon on each gene is also identified (as per case conventions (upper_case) in the file). Upstream introns and downstream introns are also colored accordingly. A legend is provided at the bottom to indicate all identified motifs. 
